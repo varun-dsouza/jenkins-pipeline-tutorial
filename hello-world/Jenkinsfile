@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'hello everyone' 
             }
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code' 
+                echo 'this is new part' 
             }
         }
         stage('Security Check') {
@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Run Unit Tests') {
             steps {
-                echo 'Run unit tests from the source code' 
+                echo 'this also is a new part' 
             }
         }
         stage('Run Integration Tests') {
